@@ -1,0 +1,10 @@
+@media (max-width: 25em) {
+  .grid {
+    display: flex;
+    flex-direction: column;
+    margin: 6rem 3rem;
+  }
+  .attribution {
+    display: none;
+  }
+}

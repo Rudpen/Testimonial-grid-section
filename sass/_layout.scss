@@ -1,0 +1,10 @@
+.grid {
+  display: grid;
+  max-width: 111rem;
+  min-height: 57rem;
+  margin: 9.5rem auto;
+  background-color: transparent;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 2rem;
+}

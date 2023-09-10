@@ -1,0 +1,99 @@
+.quotation {
+  border-radius: 1rem;
+  padding: 2.5rem;
+  z-index: 0;
+  box-shadow: 0 1rem 4.5rem var(--black-shadow);
+
+  &--Daniel {
+    background-color: var(--moderate-violet);
+    grid-column: span 2;
+    position: relative;
+  }
+  &--Jonathan {
+    background-color: var(--very-dark-grayish);
+  }
+  &--Kira {
+    background-color: var(--white);
+    grid-row: span 2;
+  }
+  &--Jeanette {
+    background-color: var(--white);
+  }
+  &--Patrick {
+    background-color: var(--very-dark-blackish);
+    grid-column: span 2;
+  }
+
+  &__mark {
+    position: absolute;
+    top: 0;
+    right: 9rem;
+    z-index: -1;
+  }
+
+  &__author-id {
+    display: flex;
+    gap: 2rem;
+  }
+
+  &__img {
+    height: 2.75rem;
+    width: 2.75rem;
+    border-radius: 50%;
+    box-sizing: content-box;
+
+    &--border {
+      border: 3px solid var(--violet-border);
+    }
+  }
+
+  &__author-box {
+    margin-bottom: 1.6rem;
+  }
+  &__author {
+    font-size: 1.2rem;
+    color: var(--white);
+    opacity: 90%;
+
+    &--grey {
+      color: var(--very-dark-grayish);
+    }
+  }
+
+  &__verification {
+    font-size: 1.1rem;
+    color: var(--white);
+    opacity: 40%;
+
+    &--grey {
+      color: var(--very-dark-grayish);
+    }
+  }
+
+  &__big {
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: var(--white);
+    margin-bottom: 2.5rem;
+    line-height: 1.15;
+
+    &--grey {
+      color: var(--very-dark-grayish);
+    }
+  }
+
+  &__small {
+    font-size: 1.3rem;
+    color: var(--white);
+    opacity: 40%;
+
+    &--grey {
+      color: var(--very-dark-grayish);
+      font-size: 1.4rem;
+      opacity: 70%;
+    }
+  }
+}
+.attribution {
+  text-align: center;
+}
